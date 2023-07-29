@@ -1,6 +1,5 @@
 import React from 'react';
-import {BsTelephoneFill, BsFacebook} from "react-icons/bs"
-import {BiRegistered} from "react-icons/bi"
+
 
 
 const Footer = () => {
@@ -12,7 +11,7 @@ const Footer = () => {
                     <span>99 Dorrington close, Luton LU3 1XP</span>
                 </div>
                 <div>
-                    <span className='heading'><BsTelephoneFill size={20}/> {" "}Contact</span>
+                    <span className='heading'>{" "}Contact</span>
                     <span>07427 029116</span>
                     <span>07828076386</span>
                 </div>
@@ -23,7 +22,7 @@ const Footer = () => {
                     <span>Accra, Amasamman</span>
                 </div>
                 <div>
-                    <span className='heading'><BsTelephoneFill size={20}/> {" "}Contact</span>
+                    <span className='heading'>{" "}Contact</span>
                     <span>+233544920960</span>
                     <span>+233545275956</span>
                     <span>+233246220721</span>
@@ -31,7 +30,7 @@ const Footer = () => {
             </div>
             <div className='address'>
                 <div>
-                    <span className='heading'><BiRegistered size={20}/>Registration</span>
+                    <span className='heading'>Registration</span>
                     <span>
                         BSA Door To Door LTD is been registered in England and Wales
                     </span>
@@ -47,7 +46,7 @@ const Footer = () => {
                 <div>
                     <span className='heading'>Social media</span>
                     <span style={{display: 'flex', alignItems: "center"}}>
-                        <a href='https://www.facebook.com/profile.php?id=100095080851294' target='_blank' rel="noreferrer"><BsFacebook size={20}/>Facebook</a>
+                        <a href='https://www.facebook.com/profile.php?id=100095080851294' target='_blank' rel="noreferrer">Facebook</a>
                     </span>
                 </div>
             </div>
