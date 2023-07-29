@@ -200,6 +200,7 @@
 @media (max-width: 913px) {
   .main-content .left-content p {
     width: 95%;
+    text-align: left;
   }
 }
 .main-content .right-content {
@@ -227,6 +228,7 @@
 @media (max-width: 865px) {
   .main-content .right-content img {
     margin-bottom: 200px;
+    display: none;
   }
 }
 @media (max-width: 376px) {
