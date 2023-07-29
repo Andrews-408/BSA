@@ -1,5 +1,4 @@
 import React from 'react';
-import {ImLocation2} from "react-icons/im"
 import {BsTelephoneFill, BsFacebook} from "react-icons/bs"
 import {BiRegistered} from "react-icons/bi"
 
@@ -9,7 +8,7 @@ const Footer = () => {
         <div className='footer' id='contact'>
             <div className='address'>
                 <div>
-                    <span className='heading'><ImLocation2 size={20}/>{" "}Location (UK)</span>
+                    <span className='heading'>{" "}Location (UK)</span>
                     <span>99 Dorrington close, Luton LU3 1XP</span>
                 </div>
                 <div>
@@ -20,7 +19,7 @@ const Footer = () => {
             </div>
             <div className='address'>
             <div>
-                    <span className='heading'><ImLocation2 size={20}/>{" "}Location(GHANA)</span>
+                    <span className='heading'>{" "}Location(GHANA)</span>
                     <span>Accra, Amasamman</span>
                 </div>
                 <div>
